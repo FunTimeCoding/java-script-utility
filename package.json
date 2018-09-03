@@ -9,21 +9,24 @@
     "bin": {
         "jss": "./bin/jss"
     },
-    "devDependencies": {
-        "grunt": "*",
-        "grunt-cli": "*",
-        "jquery": "*",
-        "grunt-jasmine-nodejs": "*",
-        "grunt-contrib-jshint": "*",
-        "grunt-contrib-watch": "*",
-        "grunt-contrib-concat": "*",
-        "grunt-browserify": "*"
-    },
     "repository": {
         "type": "git",
         "url": "git://github.com/FunTimeCoding/javascript-skeleton.git"
     },
     "bugs": {
         "url": "https://github.com/FunTimeCoding/javascript-skeleton/issues"
+    },
+    "dependencies": {
+        "jquery": "*",
+        "graphql": "^14.0.0"
+    },
+    "devDependencies": {
+        "grunt": "*",
+        "grunt-cli": "*",
+        "grunt-jasmine-nodejs": "*",
+        "grunt-contrib-jshint": "*",
+        "grunt-contrib-watch": "*",
+        "grunt-contrib-concat": "*",
+        "grunt-browserify": "*"
     }
 }
