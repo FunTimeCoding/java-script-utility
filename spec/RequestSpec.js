@@ -2,8 +2,9 @@
 
 describe("Request", function () {
     it("can fetch a website", function () {
+        // Source: https://github.com/request/request
 
-        // TODO: Cannot test because Jasmine does not wait for asynchronous callbacks. May need jasmine-node?
+        // TODO: Cannot test because Jasmine does not wait for asynchronous callbacks. May need jasmine-node? https://github.com/mhevery/jasmine-node
         // request('http://example.org', function (error, response, body) {
         //     console.log('error:', error);
         //     console.log('statusCode:', response && response.statusCode);

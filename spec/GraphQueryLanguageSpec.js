@@ -1,5 +1,6 @@
 describe("GraphQueryLanguage", function () {
     it("can build a schema", function () {
+        // Source: https://github.com/graphql/graphql-js
         // TODO: Use different import syntax?
         // import {
         //     graphql,
