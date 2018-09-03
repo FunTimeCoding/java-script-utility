@@ -11,7 +11,7 @@ module.exports = function (grunt) {
                         cleanStack: true,
                         verbose: true
                     }
-                },
+                }
             },
             your_target: {
                 specs: [
@@ -27,7 +27,7 @@ module.exports = function (grunt) {
                 'Gruntfile.js',
                 'src/**/*.js',
                 'spec/**/*.js'
-            ],
+            ]
         },
         browserify: {
             vendor: {
