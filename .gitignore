@@ -1,0 +1,7 @@
+build
+tmp
+.vagrant
+node_modules
+dist
+web/main.js
+.sonar

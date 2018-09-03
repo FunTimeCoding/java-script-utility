@@ -1,0 +1,29 @@
+{
+    "name": "javascript-skeleton",
+    "version": "0.0.1",
+    "description": "Stub description for javascript-skeleton.",
+    "author": "Alexander Reitzel",
+    "license": "MIT",
+    "homepage": "https://github.com/FunTimeCoding/javascript-skeleton",
+    "main": "./src/ExampleModule",
+    "bin": {
+        "jss": "./bin/jss"
+    },
+    "devDependencies": {
+        "grunt": "*",
+        "grunt-cli": "*",
+        "jquery": "*",
+        "grunt-jasmine-nodejs": "*",
+        "grunt-contrib-jshint": "*",
+        "grunt-contrib-watch": "*",
+        "grunt-contrib-concat": "*",
+        "grunt-browserify": "*"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/FunTimeCoding/javascript-skeleton.git"
+    },
+    "bugs": {
+        "url": "https://github.com/FunTimeCoding/javascript-skeleton/issues"
+    }
+}
