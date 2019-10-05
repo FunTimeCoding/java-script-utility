@@ -1,24 +1,24 @@
 {
-    "name": "javascript-skeleton",
+    "name": "java-script-utility",
     "version": "0.0.1",
-    "description": "Stub description for javascript-skeleton.",
+    "description": "Stub description for java-script-utility.",
     "author": "Alexander Reitzel",
     "license": "MIT",
-    "homepage": "https://github.com/FunTimeCoding/javascript-skeleton",
+    "homepage": "https://github.com/FunTimeCoding/java-script-utility",
     "main": "./src/ExampleModule",
     "bin": {
         "jss": "./bin/jss"
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/FunTimeCoding/javascript-skeleton.git"
+        "url": "git://github.com/FunTimeCoding/java-script-utility.git"
     },
     "bugs": {
-        "url": "https://github.com/FunTimeCoding/javascript-skeleton/issues"
+        "url": "https://github.com/FunTimeCoding/java-script-utility/issues"
     },
     "dependencies": {
-        "graphql": "^14.5.8",
         "jquery": "^3.4.1",
+        "graphql": "^14.5.8",
         "request": "^2.88.0"
     },
     "devDependencies": {
@@ -27,7 +27,6 @@
         "grunt-cli": "^1.3.2",
         "grunt-contrib-concat": "*",
         "grunt-contrib-jshint": "^2.1.0",
-        "grunt-contrib-watch": "*",
         "grunt-jasmine-nodejs": "*"
     }
 }
