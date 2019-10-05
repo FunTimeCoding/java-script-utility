@@ -1,7 +1,12 @@
 build
 tmp
 .vagrant
+debian/files
+debian/debhelper-build-stamp
+debian/java-script-utility
+debian/java-script-utility.substvars
+documentation/man/*.1
+.scannerwork
 node_modules
 dist
 web/main.js
-.sonar
