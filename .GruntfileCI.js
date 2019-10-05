@@ -16,8 +16,8 @@ module.exports = function (grunt) {
                         filePrefix: "junit-report",
                         consolidate: true,
                         useDotNotation: true
-                    }
-                }
+                    },
+                },
             },
             your_target: {
                 specs: [
@@ -35,6 +35,7 @@ module.exports = function (grunt) {
                 'spec/**/*.js'
             ],
             options: {
+                esversion: 6,
                 reporter: 'checkstyle',
                 reporterOutput: 'build/log/checkstyle-result.xml'
             }
@@ -57,7 +58,7 @@ module.exports = function (grunt) {
         },
         concat: {
             'web/main.js': ['build/vendor.js', 'build/app.js']
-        }
+        },
     });
 
     grunt.loadNpmTasks('grunt-jasmine-nodejs');
