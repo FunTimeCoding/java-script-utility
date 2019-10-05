@@ -1,9 +1,9 @@
-var javaScriptSkeleton = function() {
+var javaScriptUtility = function() {
     this.name = 'friend.';
 };
 
-javaScriptSkeleton.prototype.hello = function () {
+javaScriptUtility.prototype.hello = function () {
     return 'Hello ' + this.name;
 };
 
-module.exports = javaScriptSkeleton;
+module.exports = javaScriptUtility;

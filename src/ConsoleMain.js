@@ -5,8 +5,8 @@ var consoleMain = function() {
 };
 
 consoleMain.prototype.run = function () {
-    var javaScriptSkeleton = new JavaScriptUtility();
-    console.log(javaScriptSkeleton.hello());
+    var javaScriptUtility = new JavaScriptUtility();
+    console.log(javaScriptUtility.hello());
 
     return this.returnCode;
 };
