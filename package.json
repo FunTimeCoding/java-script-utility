@@ -17,7 +17,7 @@
         "url": "https://github.com/FunTimeCoding/java-script-utility/issues"
     },
     "dependencies": {
-        "jquery": "^3.4.1",
+        "jquery": "^3.5.0",
         "graphql": "^14.5.8",
         "request": "^2.88.0"
     },
